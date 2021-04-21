@@ -1,0 +1,86 @@
+body{
+	font-family: 'Open Sans', sans-serif; /* Fonte do google fonts */
+	background-color: #FFF;
+	margin: : 0;
+}
+
+/* Estilo do meu header */
+header{
+	text-align: center; /* alinho todo o header centralizado */
+}
+
+h1{
+	font-size: 70px;
+	color: #205D76;
+}
+
+.header{
+	width: 650px;
+}
+
+/* Inicio do estilo da section */
+
+article{
+	display: flex; /* Torna o conteúdo flexível, colocar um elemento do lado do outro */
+	margin: 50px auto; /* considerar a largura do elemento, e centraliza-lo na janela do  navegador */
+	width: 450px;
+	text-align: center;
+}
+
+.article{
+	width: 200px;
+}
+
+div{
+	align-content: center;
+	width: 100%;
+    height: 100%;
+}
+
+h2{
+	font-size: 30px;
+	color: #205D76;
+	text-align: center;
+}
+
+ul{
+	color: #FFC122;
+	padding-left: 15px; /* padding para alinhar a lista com o texto acima */
+}
+
+li{
+	margin-bottom: 10px; /* coloco um pouco de espaço entre os itens */
+}
+
+a{
+	font-size: 20px;
+	color: #EA6E2F;
+}
+
+/* Footer */
+
+footer{
+	background-color: #205D76;
+	text-align: center;
+	padding: 2px;
+}
+
+p{
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.a1{
+	max-width:700px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    align-content: center;
+    margin-left: 0px;
+}
+
+img, p{
+	display: inline-block;
+} 
